@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="50dp"
     android:paddingRight="50dp"
-    android:paddingTop="0dp"
+    android:paddingTop="20dp"
     android:paddingBottom="50dp"
     tools:context="com.example.eurequat_algerie.walidlocalisation.choix1"
     android:orientation="vertical">
@@ -17,49 +17,50 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="51"
-            android:id="@+id/button4"
-            android:layout_weight="1" />
+            android:id="@+id/a1"
+            android:layout_weight="1"
+            android:onClick="affiche" />
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="52"
-            android:id="@+id/button5"
+            android:id="@+id/a2"
             android:layout_weight="1" />
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="53"
-            android:id="@+id/button6"
+            android:id="@+id/a3"
             android:layout_weight="1" />
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="54"
-            android:id="@+id/button7"
+            android:id="@+id/a4"
             android:layout_weight="1" />
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="55"
-            android:id="@+id/button8"
+            android:id="@+id/a5"
             android:layout_weight="1" />
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="56"
-            android:id="@+id/button9"
+            android:id="@+id/a6"
             android:layout_weight="1" />
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="57"
-            android:id="@+id/button10"
+            android:id="@+id/a7"
             android:layout_weight="1" />
     </LinearLayout>
 
@@ -73,21 +74,21 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="New Button"
-            android:id="@+id/button12"
+            android:id="@+id/b1"
             android:layout_weight="2" />
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="New Button"
-            android:id="@+id/button11"
+            android:id="@+id/b2"
             android:layout_weight="2" />
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="New Button"
-            android:id="@+id/button13"
+            android:id="@+id/b3"
             android:layout_weight="1" />
     </LinearLayout>
 
@@ -100,12 +101,74 @@
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="16.5"></LinearLayout>
+        android:layout_weight="16.5">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/c1"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/c2"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/c3"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/c4"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/c5"
+            android:layout_weight="1" />
+    </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="16.5"></LinearLayout>
+        android:layout_weight="16.5">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/d1"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/d2"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/d3"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/d4"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/d5"
+            android:layout_weight="1" />
+    </LinearLayout>
 
 </LinearLayout>

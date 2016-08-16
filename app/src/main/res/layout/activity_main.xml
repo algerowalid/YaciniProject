@@ -21,7 +21,8 @@
             android:text="New Button"
             android:id="@+id/button"
             android:layout_gravity="center_vertical"
-            android:layout_weight="12" />
+            android:layout_weight="12"
+            android:onClick="choix2" />
 
         <Space
             android:layout_width="fill_parent"

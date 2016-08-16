@@ -7,9 +7,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import Traitement.Network;
+
 
 public class MainActivity extends ActionBarActivity {
 
+    public static Network net;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,4 +47,22 @@ public class MainActivity extends ActionBarActivity {
         Intent launch  = new Intent(MainActivity.this,choix1.class);
         startActivity(launch);
     }
+
+    public void choix2(View arg){
+
+        String req = "insert into test (nom,valeur)" +
+                "Values ('walid',50)";
+
+        net.connection();
+        net.query(req);
+        net.close();
+
+
+
+/*
+        Intent launch  = new Intent(MainActivity.this,choix1.class);
+        startActivity(launch);
+  */  }
+
+
 }
